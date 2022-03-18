@@ -1,6 +1,3 @@
-let controller = new ScrollMagic.Controller();
-let timeline = new TimelineMax();
-
 let bg = document.getElementById("bg");
                 let moon = document.getElementById("moon");
                 let mountain = document.getElementById("mountain");
@@ -16,5 +13,3 @@ let bg = document.getElementById("bg");
                     house.style.top = value * 0.15 + 'px';
                     text.style.top = value * 0.99+ 'px';
                 })
-
-  .fromTo(".content-text", { opacity: 0 }, { opacity: 1, duration: 3 });
